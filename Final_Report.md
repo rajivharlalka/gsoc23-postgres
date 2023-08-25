@@ -1,4 +1,7 @@
 # GSoC 2023 Project Report
+<div align="center">
+<img src="./assets/postgresql.png" width="200"/><img src="./assets/gsoc.png" width="200"/> 
+</div>
 
 ## pg_statviz: Time Series Analysis & Visualization of Statistics
 
