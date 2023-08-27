@@ -38,7 +38,7 @@ Various GUCs whose value have a huge role in deciding various factors internally
 
 ### Added support through packages in the Red Hat and Debian community.
 
-Contributed support through packages within the Red Hat and Debian communities, effectively participating in the process of packaging the extension. This endeavor has proven instrumental in simplifying the installation process for end users, substantially reducing the overall number of steps required.
+Contributed support through packages within the Red Hat and Debian communities(under process), participating in the process of packaging the extension. This endeavor has proven instrumental in simplifying the installation process for end users, substantially reducing the overall number of steps required.
 
 ### Various Minor fixes to handle edge cases
 
