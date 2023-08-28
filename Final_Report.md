@@ -67,6 +67,9 @@ Enhanced the project during GSoC by crafting comprehensive updated documentation
 Along with these, wrote multiple blogs on my learnings and experiences on my journey. 
 Blogs can be found here: [Website](https://rajivharlalka.tech) and my learning dump with various articles/books I read through can be found [here](https://gist.github.com/rajivharlalka/d8283358b8aaf5f8db5c0a7b4bfd909f) and [here](https://gist.github.com/rajivharlalka/f9a54c95eeafeef58734e2006f957fed).
 
+With the motivation I got from my mentors, I have applied as a speaker for [PGConf EU 2023](https://2023.pgconf.eu/) to speak about my experience.
+The topic of my talk would be "Charting My Path: Journey of a GSoC 2023 Contributor to PostgreSQL with pg_statviz" where I would be speaking about the experience of a fresh contributor to the PostgreSQL community while I was contributing to my project "pg_statviz". 
+
 # Future Plans
 
 - As newer PostgreSQL version release, we'll have more stat views which would provide better information. For example, the PostgreSQL 16 release will bring in pg_stat_io view which would include System wide io statistics.
