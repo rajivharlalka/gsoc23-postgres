@@ -26,7 +26,7 @@ The Python command-line utility accesses the tables in this schema to perform ti
 - Increased Modules in the extension
 - Packaging of extension for PGDG Repositories and Linux Distributions
 - Add/Update Documentation about the tool and packaging extensions 
-- Bug fixes in the original implementation 
+- Bug fixes in the original module implementations. 
 
 ## Project Results
 
@@ -38,7 +38,7 @@ Various GUCs whose value have a huge role in deciding various factors internally
 
 ### Added support through packages in the Red Hat and Debian community.
 
-Contributed support through packages within the Red Hat and Debian communities(under process), participating in the process of packaging the extension. This endeavor has proven instrumental in simplifying the installation process for end users, substantially reducing the overall number of steps required.
+Contributed support through packages within the Red Hat and Debian communities(under process), participating in the process of packaging the extension. This endeavor has proven instrumental in simplifying the installation process for end users, substantially reducing the overall number of steps required. The extension is also available on PGXN, the PostgreSQL Extension Network, that also allows easy installation methods to the users.
 
 ### Various Minor fixes to handle edge cases
 
@@ -46,7 +46,7 @@ Made several minor fixes to add support for systems with different tools, (missi
 
 ### Documentation on the features added
 
-I significantly enhanced the project during GSoC by crafting comprehensive updated documentation. This empowers users to easily understand and utilize the software's features, fostering accessibility and accelerating its adoption within the community.
+Enhanced the project during GSoC by crafting comprehensive updated documentation. This empowers users to easily understand and utilize the software's features, fostering accessibility and accelerating its adoption within the community.
 
 # Contributions
 
@@ -62,9 +62,15 @@ I significantly enhanced the project during GSoC by crafting comprehensive updat
 |[Closed PR: #12](https://github.com/vyruss/pg_statviz/pull/12)| Sample Implementation to test CLI modules|
 |[Closed PR: #2](https://github.com/vyruss/pg_statviz/pull/2)| Github Action that tests the PG extension on all supported PG versions|
 |[Open PR: #14](https://github.com/vyruss/pg_statviz/pull/14)| Alternative approach to test modules|
+|[Open PR: #15](https://github.com/vyruss/pg_statviz/pull/15)| Add alternative installation methods to README|
 
 Along with these, wrote multiple blogs on my learnings and experiences on my journey. 
 Blogs can be found here: [Website](https://rajivharlalka.tech) and my learning dump with various articles/books I read through can be found [here](https://gist.github.com/rajivharlalka/d8283358b8aaf5f8db5c0a7b4bfd909f) and [here](https://gist.github.com/rajivharlalka/f9a54c95eeafeef58734e2006f957fed).
+
+# Future Plans
+
+- As newer PostgreSQL version release, we'll have more stat views which would provide better information. For example, the PostgreSQL 16 release will bring in pg_stat_io view which would include System wide io statistics.
+- Support on various other architectures and systems. The extension is currently unavailable on various other operating system/distro as an easy installation.  
 
 # Conclusion
 
@@ -75,6 +81,6 @@ For me, Open-Source seemed like a wild forest which pretty much confused me, but
 # Acknowledgement
 
 I am extremely grateful to get mentored by [Jimmy Angelakos](https://github.com//vyruss), [Pavlo Golub](https://github.com/pashagolub), [Boriss Mejías](https://www.linkedin.com/in/boriss-mej%C3%ADas-4637401)
-, for their constant support, guidance, and help. Also, the PostgreSQL Community has been immensely helpful and developers guided me throughout the project.
+, for their constant support, guidance, and motivation. Also, the PostgreSQL Community has been immensely helpful and developers guided me throughout the project.
 
 Thanks to Google and PostgreSQL for providing me the opportunity to work on this amazing project. It has been a great learning experience and contributing to PostgreSQL has been an amazing experience. I would certainly want to continue contributing and helping the community.
