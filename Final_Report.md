@@ -62,7 +62,7 @@ Enhanced the project during GSoC by crafting comprehensive updated documentation
 |[Closed PR: #12](https://github.com/vyruss/pg_statviz/pull/12)| Sample Implementation to test CLI modules|
 |[Closed PR: #2](https://github.com/vyruss/pg_statviz/pull/2)| Github Action that tests the PG extension on all supported PG versions|
 |[Open PR: #14](https://github.com/vyruss/pg_statviz/pull/14)| Alternative approach to test modules|
-|[Closed PR: #15](https://github.com/vyruss/pg_statviz/pull/15)| Add alternative installation methods to README|
+|[Merged PR: #15](https://github.com/vyruss/pg_statviz/pull/15)| Add alternative installation methods to README|
 
 Along with these, wrote multiple blogs on my learnings and experiences on my journey. 
 Blogs can be found here: [Website](https://rajivharlalka.tech) and my learning dump with various articles/books I read through can be found [here](https://gist.github.com/rajivharlalka/d8283358b8aaf5f8db5c0a7b4bfd909f) and [here](https://gist.github.com/rajivharlalka/f9a54c95eeafeef58734e2006f957fed).
