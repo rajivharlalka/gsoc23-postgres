@@ -53,7 +53,7 @@ Enhanced the project during GSoC by crafting comprehensive updated documentation
 
 |Commit/PR|Descritption|
 |---|---|
-|[Commit: 94e4a05](https://github.com/vyruss/pg_statviz/commit/94e4a054bf06246e4a3a46f220fa0fdc4480d0b2) | Add condition to support wal statistics in PG version>15|
+|[Commit: 94e4a05](https://github.com/vyruss/pg_statviz/commit/94e4a054bf06246e4a3a46f220fa0fdc4480d0b2) | Add condition checks to support wal statistics in PG version>15|
 |[Commit: 299039c](https://github.com/vyruss/pg_statviz/commit/299039c481ad349f47b9c1f9df8dcf73e1d6f2b2) | Add support for systems that have missing `hostname` tool|
 |[Commit: 27d51ff](https://github.com/vyruss/pg_statviz/commit/27d51ffd5a098b883c4e48b05077d0f1edcc65ab) | Added more GUC to the statistics|
 |[Commit: 8ef810](https://github.com/vyruss/pg_statviz/commit/8ef8108e38f571f926627b0203805991e3e2f0bc)| Added statistics collection about locks|
